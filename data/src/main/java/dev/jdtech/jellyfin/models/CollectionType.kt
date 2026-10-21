@@ -29,7 +29,7 @@ enum class CollectionType(val type: String) {
 
             return try {
                 entries.first { it.type == string }
-            } catch (e: NoSuchElementException) {
+            } catch (_: NoSuchElementException) {
                 defaultValue
             }
         }

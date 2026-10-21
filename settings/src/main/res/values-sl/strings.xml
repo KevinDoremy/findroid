@@ -6,11 +6,9 @@
     <string name="settings_preferred_audio_language">Želen jezik zvoka</string>
     <string name="settings_category_servers">Strežniki</string>
     <string name="settings_category_player">Vido predvajalnik</string>
-    <string name="settings_category_download">Prenosi</string>
     <string name="settings_category_appearance">Videz</string>
     <string name="settings_cache_size">Velikost predpomnilnika</string>
     <string name="about">O</string>
-    <string name="privacy_policy">Politika zasebnosti</string>
     <string name="mpv_player">mpv player</string>
     <string name="download_roaming">Prenos med gostovanjem prenosnih podatkov</string>
     <string name="gestures">Gibi</string>
@@ -37,8 +35,6 @@
     <string name="pref_player_mpv_hwdec">Strojno dekodiranje</string>
     <string name="pref_player_mpv_vo">Video izhod</string>
     <string name="pref_player_mpv_ao">Avdio izhod</string>
-    <string name="settings_preferred_subtitle_language">Želen jezik podnapisov</string>
-    <string name="settings_category_device">Naprava</string>
     <string name="settings_category_cache">Predpomnilnik</string>
     <string name="settings_use_cache_title">Shrani slike v predpomnilnik</string>
     <string name="settings_use_cache_summary">Shranite slike na disku, da pospešite čas nalaganja. Veljati bo začelo po ponovnem zagonu aplikacije.</string>
@@ -52,7 +48,5 @@
     <string name="extra_info">Prikaži dodatne informacije</string>
     <string name="extra_info_summary">Prikaže podrobne informacije o zvoku, videu in podnapisih</string>
     <string name="app_language">Jezik aplikacije</string>
-    <string name="amoled_theme">AMOLED temni način</string>
-    <string name="amoled_theme_summary">Uporabite temo AMOLED s čisto črnim ozadjem</string>
     <string name="picture_in_picture">Slika v sliki</string>
 </resources>

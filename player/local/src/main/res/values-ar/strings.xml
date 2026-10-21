@@ -3,10 +3,8 @@
     <string name="select_audio_track">اختر المسار الصوتي</string>
     <string name="select_subtitle_track">اختر الترجمه</string>
     <string name="select_playback_speed">اختر سرعة التشغيل</string>
-    <string name="select_a_version">اختر نسخة</string>
     <string name="external">خارجي</string>
     <string name="none">لا شيئ</string>
-    <string name="player_controls_picture_in_picture">تشغيل النافذة المنبثقة</string>
     <string name="player_controls_lock">قفل المشغل</string>
     <string name="player_controls_skip_back">رجوع للخلف</string>
     <string name="player_controls_play_pause">تشغيل إيقاف</string>

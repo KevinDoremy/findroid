@@ -3,12 +3,9 @@
     <string name="settings_category_player">Reproductor</string>
     <string name="settings_category_language">Idioma</string>
     <string name="settings_preferred_audio_language">Idioma d\'àudio preferit</string>
-    <string name="settings_preferred_subtitle_language">Idioma de subtítols preferit</string>
     <string name="settings_category_servers">Servidors</string>
-    <string name="settings_category_download">Baixades</string>
     <string name="settings_category_appearance">Aparença</string>
     <string name="settings_category_interface">Interfície</string>
-    <string name="settings_category_device">Dispositiu</string>
     <string name="settings_category_cache">Memòria cau</string>
     <string name="settings_use_cache_title">Imatges a la memòria cau</string>
     <string name="settings_cache_size">Mida de la memòria cau</string>

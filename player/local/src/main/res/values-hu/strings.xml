@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="select_a_version">Verzió kiválasztása</string>
     <string name="select_audio_track">Hangsáv kiválasztása</string>
     <string name="select_subtitle_track">Felirat kiválasztása</string>
     <string name="select_playback_speed">Lejátszási sebesség kiválasztása</string>
@@ -15,6 +14,5 @@
     <string name="player_controls_play_pause">Lejátsz Megállít</string>
     <string name="player_controls_progress">Idővonal</string>
     <string name="player_trickplay">Trükkös játék</string>
-    <string name="player_controls_picture_in_picture">Belépés kép a képben</string>
     <string name="none">Nincs</string>
 </resources>

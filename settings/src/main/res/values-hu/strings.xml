@@ -3,17 +3,13 @@
     <string name="title_settings">Beállítások</string>
     <string name="settings_category_language">Nyelv</string>
     <string name="settings_preferred_audio_language">Preferált beszéd nyelv</string>
-    <string name="settings_preferred_subtitle_language">Preferált felirat nyelv</string>
     <string name="settings_category_servers">Szerverek</string>
     <string name="settings_category_player">Lejátszó</string>
-    <string name="settings_category_download">Letöltések</string>
-    <string name="settings_category_device">Eszköz</string>
     <string name="settings_category_cache">Gyorsítótár</string>
     <string name="settings_use_cache_title">Képek gyorsidőtározása</string>
     <string name="settings_cache_size">Gyorsidőtár mérete</string>
     <string name="theme">Téma</string>
     <string name="about">Rólunk</string>
-    <string name="privacy_policy">Adatvédelmi nyilatkozat</string>
     <string name="mpv_player">mpv lejátszó</string>
     <string name="download_roaming">Letöltés roaming közben</string>
     <string name="gestures">Gesztúrák</string>
@@ -47,8 +43,6 @@
     <string name="dynamic_colors">Dinamikus színek</string>
     <string name="seek_back_increment">Vissza seekelési sebesség növekedése</string>
     <string name="player_gestures_seek_summary">Húzd az ujjad jobbra vagy balra az előre, illetve vissza ugráshoz</string>
-    <string name="amoled_theme">AMOLED sötét mód</string>
-    <string name="amoled_theme_summary">Használd az AMOLED sötét módot teljesen fekete háttérrel</string>
     <string name="app_language">Alkalmazás nyelve</string>
     <string name="extra_info">Extra információk megjelenítése</string>
     <string name="extra_info_summary">Jeleníts meg extra infokat a hangról, a videóról és a feliratokról</string>
@@ -60,12 +54,9 @@
     <string name="player_start_maximized_summary">Videó megnyitása alapértelmezés szerint maximalizált módban</string>
     <string name="player_start_maximized">Indítás maximalizálva</string>
     <string name="player_gestures_chapter_skip">Fejezet gesztus</string>
-    <string name="player_gestures_chapter_skip_summary">Hosszan nyomd meg a bal / jobb oldalt a fejezetek átugrására (felülírja a 2x sebesség gesztust)</string>
     <string name="pref_player_chapter_markers">Fejezet jelölések</string>
-    <string name="pref_player_chapter_markers_summary">Fejezetjelzők megjelenítése az idősávon</string>
     <string name="pref_player_trickplay">Előnézet</string>
     <string name="pref_player_trickplay_summary">Előnézeti képek megjelenítése görgetés közben</string>
-    <string name="pref_player_gestures_seek_trickplay_summary">Előnézeti képek megjelenítése keresési gesztusra</string>
     <string name="trickplay">Előnézet</string>
     <string name="pref_player_gestures_seek_trickplay">Előnézet a keresési gesztuson</string>
 </resources>

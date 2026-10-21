@@ -34,7 +34,6 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.withContext
 import org.jellyfin.sdk.model.api.BaseItemDto
 import org.jellyfin.sdk.model.api.BaseItemKind
-import org.jellyfin.sdk.model.api.DeviceOptionsDto
 import org.jellyfin.sdk.model.api.DeviceProfile
 import org.jellyfin.sdk.model.api.GeneralCommandType
 import org.jellyfin.sdk.model.api.ItemFields
@@ -52,7 +51,6 @@ import org.jellyfin.sdk.model.api.RepeatMode
 import org.jellyfin.sdk.model.api.SortOrder as ItemSortOrder
 import org.jellyfin.sdk.model.api.SubtitleDeliveryMethod
 import org.jellyfin.sdk.model.api.SubtitleProfile
-import org.jellyfin.sdk.model.api.UserConfiguration
 import timber.log.Timber
 
 class JellyfinRepositoryImpl(
@@ -537,20 +535,6 @@ class JellyfinRepositoryImpl(
     }
 
     override fun getBaseUrl() = jellyfinApi.api.baseUrl.orEmpty()
-
-    override suspend fun updateDeviceName(name: String) {
-        withContext(Dispatchers.IO) {
-            jellyfinApi.jellyfin.deviceInfo?.id?.let { id ->
-                jellyfinApi.deviceApi.updateDeviceOptions(
-                    id,
-                    DeviceOptionsDto(0, customName = name),
-                )
-            }
-        }
-    }
-
-    override suspend fun getUserConfiguration(): UserConfiguration =
-        withContext(Dispatchers.IO) { jellyfinApi.userApi.getCurrentUser().content.configuration!! }
 
     override suspend fun getDownloads(): List<FindroidItem> =
         withContext(Dispatchers.IO) {

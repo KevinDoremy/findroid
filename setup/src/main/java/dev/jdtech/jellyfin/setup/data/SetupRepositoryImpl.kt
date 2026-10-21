@@ -261,11 +261,6 @@ class SetupRepositoryImpl(
             }
         }
 
-    override suspend fun getCurrentUser(): User? {
-        val currentServer = getCurrentServer() ?: return null
-        return database.getServerCurrentUser(currentServer.id)
-    }
-
     override suspend fun deleteUser(userId: UUID) {
         // Let the user delete the current active user for now
         /*val currentUser = getCurrentUser() ?: return

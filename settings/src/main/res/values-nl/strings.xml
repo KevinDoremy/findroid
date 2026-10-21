@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="settings_preferred_subtitle_language">Gewenste ondertiteling taal</string>
     <string name="settings_category_servers">Servers</string>
     <string name="settings_category_player">Speler</string>
     <string name="mpv_player">mpv speler</string>
@@ -34,9 +33,7 @@
     <string name="settings_preferred_audio_language">Gewenste audio taal</string>
     <string name="title_settings">Instellingen</string>
     <string name="title_download">Downloads</string>
-    <string name="settings_category_download">Downloads</string>
     <string name="settings_category_appearance">Uiterlijk</string>
-    <string name="settings_category_device">Apparaat</string>
     <string name="settings_category_cache">Cache</string>
     <string name="settings_use_cache_title">Cache fotos</string>
     <string name="settings_use_cache_summary">Cache afbeeldingen op schijf om laadtijden te versnellen. Treedt in werking na een herstart van de app.</string>
@@ -44,25 +41,20 @@
     <string name="settings_cache_size_message">App zal deze hoeveelheid MB van uw schijfruimte gebruiken om afbeeldingen van Jellyfin server op te slaan. Grotere waarden kunnen gunstig zijn op tragere netwerken.</string>
     <string name="theme">Thema</string>
     <string name="about">Over</string>
-    <string name="privacy_policy">Privacybeleid</string>
     <string name="mpv_player_summary">Gebruik de experimentele mpv speler om videos af te spelen. mpv heeft ondersteuning voor meer video, audio en ondertiteling codecs.</string>
     <string name="player_gestures_seek_summary">Veeg horizontaal om vooruit of achteruit te spoelen</string>
     <string name="extra_info">Extra informatie weergeven</string>
     <string name="extra_info_summary">Laat uitgebreide informatie zijn over Audio, Video en Ondertitels</string>
     <string name="offline_mode">Offline Modus</string>
     <string name="app_language">App taal</string>
-    <string name="amoled_theme">AMOLED donker thema</string>
-    <string name="amoled_theme_summary">Gebruik AMOLED thema met een compleet zwarte achtergrond</string>
     <string name="player_gestures_seek">Zoek gebaar</string>
     <string name="picture_in_picture">Scherm-in-scherm</string>
     <string name="picture_in_picture_gesture_summary">Gebruik de startknop of een gebaar om beeld-in-beeld te openen terwijl de video wordt afgespeeld</string>
     <string name="picture_in_picture_gesture">Scherm-in-scherm huisgebaar</string>
     <string name="player_gestures_chapter_skip">Hoofdstuk gebaar</string>
-    <string name="player_gestures_chapter_skip_summary">Druk lang op de linker-/rechterkant om hoofdstukken over te slaan (overschrijft 2x snelheidsgebaar)</string>
     <string name="player_start_maximized">Gemaximaliseerd starten</string>
     <string name="player_start_maximized_summary">Open video standaard in de gemaximaliseerde modus</string>
     <string name="pref_player_chapter_markers">Hoofdstukmarkeringen</string>
-    <string name="pref_player_chapter_markers_summary">Geef hoofdstukmarkeringen weer op de tijdbalk</string>
     <string name="cancel">Annuleren</string>
     <string name="users">Gebruikers</string>
     <string name="home">Thuis</string>
@@ -74,5 +66,4 @@
     <string name="save">Opslaan</string>
     <string name="media_segments">Media Segmenten</string>
     <string name="pref_player_media_segments_skip_button">Skip knop weergeven</string>
-    <string name="pref_player_media_segments_skip_button_summary">Laat een knop zien om makkelijk delen over te slaan</string>
 </resources>

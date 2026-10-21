@@ -6,9 +6,7 @@
     <string name="settings_preferred_audio_language">Ưu tiên ngôn ngữ âm thanh</string>
     <string name="settings_category_servers">Máy chủ</string>
     <string name="settings_category_player">Trình xem</string>
-    <string name="settings_category_download">Tải về</string>
     <string name="settings_category_appearance">Diện mạo</string>
-    <string name="settings_category_device">Thiết bị</string>
     <string name="settings_category_cache">Bộ nhớ đệm</string>
     <string name="settings_use_cache_title">Ảnh đệm</string>
     <string name="settings_cache_size">Kích thước bộ nhớ đệm</string>
@@ -36,10 +34,8 @@
     <string name="pref_player_mpv_hwdec">Giải mã phần cứng</string>
     <string name="pref_player_mpv_vo">Đầu ra hình ảnh</string>
     <string name="pref_player_mpv_ao">Đầu ra âm thanh</string>
-    <string name="settings_preferred_subtitle_language">Ưu tiên ngôn ngữ phụ đề</string>
     <string name="settings_use_cache_summary">Lưu ảnh đệm lên bộ nhớ để giảm thời gian tải dữ liệu. Sẽ áp dụng ở lần chạy ứng dụng sau.</string>
     <string name="settings_cache_size_message">Ứng dụng này sẽ sử dụng số MB trên bộ nhớ của bạn để chứa ảnh từ máy chủ Jellyfin. Giá trị lớn có thể sẽ có lợi nếu đường truyền tới máy chủ chậm.</string>
-    <string name="privacy_policy">Chính sách về quyền riêng tư</string>
     <string name="download_mobile_data">Tải về sử dụng mạng dữ liệu</string>
     <string name="mpv_player_summary">Dùng trình phát mpv thử nghiệm để phát video. mpv hỗ trợ nhiều bộ giải mã hình ảnh, âm thanh và phụ đề hơn.</string>
     <string name="player_gestures">Cử chỉ trong trình xem</string>
@@ -51,8 +47,6 @@
     <string name="offline_mode">Chế độ Ngoại tuyến</string>
     <string name="extra_info">Hiện thị thêm thông tin</string>
     <string name="extra_info_summary">Hiển thị thêm các thông tin về âm thanh, video và phụ đề</string>
-    <string name="amoled_theme">Chủ đề màu tối (AMOLED)</string>
-    <string name="amoled_theme_summary">Sử dụng chủ đề cho màn hình AMOLED với nền màu đen tuyệt đối</string>
     <string name="picture_in_picture">Hình trong hình</string>
     <string name="picture_in_picture_gesture_summary">Sử dùng phím hoặc cử chỉ về màn hình chính để vào chế độ Hình trong Hình khi video đang phát</string>
     <string name="picture_in_picture_gesture">Cử chỉ về màn hình chính khi đang hình trong hình</string>

@@ -24,7 +24,7 @@ class PlaylistManager @Inject internal constructor(private val repository: Jelly
     private var startItem: FindroidItem? = null
     private var items: List<FindroidItem> = emptyList()
     private val playerItems: MutableList<PlayerItem> = mutableListOf()
-    var currentItemIndex: Int = 0
+    private var currentItemIndex: Int = 0
 
     suspend fun getInitialItem(
         itemId: UUID,

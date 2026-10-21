@@ -4,9 +4,7 @@
     <string name="player_controls_play_pause">Afspilnings pause</string>
     <string name="select_subtitle_track">Vælg undertekster</string>
     <string name="select_playback_speed">Vælg afspilnings hastighed</string>
-    <string name="select_a_version">Vælg en version</string>
     <string name="external">Ekstern</string>
-    <string name="player_controls_picture_in_picture">Start billed i billed</string>
     <string name="player_controls_lock">Låser afspilleren</string>
     <string name="player_controls_skip_back">Hop tilbage</string>
     <string name="player_controls_exit">Stop afspiller</string>

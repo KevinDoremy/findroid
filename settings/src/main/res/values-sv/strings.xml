@@ -6,14 +6,11 @@
     <string name="settings_preferred_audio_language">Föredraget ljudspråk</string>
     <string name="settings_category_servers">Servrar</string>
     <string name="settings_category_player">Spelare</string>
-    <string name="settings_category_download">Nedladdningar</string>
     <string name="settings_category_appearance">Utseende</string>
-    <string name="settings_category_device">Enhet</string>
     <string name="settings_category_cache">Cache</string>
     <string name="settings_cache_size">Lagringsstorlek</string>
     <string name="theme">Tema</string>
     <string name="about">Om</string>
-    <string name="privacy_policy">Integritetspolicy</string>
     <string name="mpv_player">mpv spelaren</string>
     <string name="download_mobile_data">Ladda ner med mobildata</string>
     <string name="download_roaming">Ladda ner vid roaming</string>
@@ -26,8 +23,6 @@
     <string name="seeking">Spolar</string>
     <string name="seek_back_increment">Spola bakåt intervall</string>
     <string name="seek_forward_increment">Spola framåt intervall</string>
-    <string name="amoled_theme">AMOLED-mörkt tema</string>
-    <string name="amoled_theme_summary">Använd AMOLED-tema med en helt svart bakgrund</string>
     <string name="subtitles">Textning</string>
     <string name="theme_system">Följ systemet</string>
     <string name="theme_light">Ljust</string>
@@ -38,7 +33,6 @@
     <string name="pref_player_mpv_ao">Ljudoutput</string>
     <string name="extra_info">Visa extra information</string>
     <string name="extra_info_summary">Visa detaljerad information om ljud, video och textning</string>
-    <string name="settings_preferred_subtitle_language">Föredraget textningsspråk</string>
     <string name="settings_use_cache_title">Lagra bilder</string>
     <string name="settings_use_cache_summary">Lagra bilder på disk för att snabba upp laddningstider. Tar effekt efter appen har startats om.</string>
     <string name="settings_cache_size_message">Appen kommer att använda detta antal MB av ditt lagringsutrymme för att lagra bilder från Jellyfin-servern. Större värden kan vara fördelaktiga på långsammare nätverk.</string>
@@ -61,13 +55,10 @@
     <string name="picture_in_picture">Bild-i-bild</string>
     <string name="app_language">Appens språk</string>
     <string name="pref_player_chapter_markers">Kapitelmarkörer</string>
-    <string name="pref_player_chapter_markers_summary">Visa kapitelmarkörer på tidsfältet</string>
     <string name="pref_player_gestures_seek_trickplay">Trickplay på sökgest</string>
-    <string name="pref_player_gestures_seek_trickplay_summary">Visa förhandsgranskningsbilder vid sökgest</string>
     <string name="trickplay">Trickplay</string>
     <string name="player_start_maximized">Börja maximerad</string>
     <string name="player_gestures_chapter_skip">Kapitel gest</string>
-    <string name="player_gestures_chapter_skip_summary">Tryck länge på vänster/höger sida för att hoppa över kapitel (åsidosätter 2x hastighetsgest)</string>
     <string name="player_start_maximized_summary">Öppna video i maximerat läge som standard</string>
     <string name="settings_category_interface">Gränssnitt</string>
     <string name="cancel">Avbryt</string>
@@ -83,11 +74,9 @@
     <string name="save">Spara</string>
     <string name="media_segments">Mediasegment</string>
     <string name="pref_player_media_segments_skip_button">Visa hoppa över knapp</string>
-    <string name="pref_player_media_segments_skip_button_summary">Ger en knapp för att enkelt hoppa över olika delar</string>
     <string name="pref_player_media_segments_skip_button_type">Vilka typer av segment som visar hoppa över knappen</string>
     <string name="pref_player_media_segments_skip_button_duration">Visa hoppa över knappen för</string>
     <string name="pref_player_media_segments_auto_skip">Hoppa över automatiskt</string>
-    <string name="pref_player_media_segments_auto_skip_summary">Sätt på för att automatiskt hoppa över valda segment typer</string>
     <string name="pref_player_media_segments_auto_skip_mode">När den ska hoppa över automatiskt</string>
     <string name="pref_player_media_segments_auto_skip_type">Vilken del som den ska hoppa över automatiskt</string>
     <string name="media_segments_auto_skip_always">alltid</string>

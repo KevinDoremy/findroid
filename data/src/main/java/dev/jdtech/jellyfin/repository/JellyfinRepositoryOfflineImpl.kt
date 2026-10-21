@@ -31,7 +31,6 @@ import org.jellyfin.sdk.model.api.BaseItemDto
 import org.jellyfin.sdk.model.api.BaseItemKind
 import org.jellyfin.sdk.model.api.ItemFields
 import org.jellyfin.sdk.model.api.PublicSystemInfo
-import org.jellyfin.sdk.model.api.UserConfiguration
 
 class JellyfinRepositoryOfflineImpl(
     private val context: Context,
@@ -297,14 +296,6 @@ class JellyfinRepositoryOfflineImpl(
 
     override fun getBaseUrl(): String {
         return ""
-    }
-
-    override suspend fun updateDeviceName(name: String) {
-        TODO("Not yet implemented")
-    }
-
-    override suspend fun getUserConfiguration(): UserConfiguration? {
-        return null
     }
 
     override suspend fun getDownloads(): List<FindroidItem> =

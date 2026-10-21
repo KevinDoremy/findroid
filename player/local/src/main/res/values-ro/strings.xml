@@ -5,10 +5,8 @@
     <string name="select_audio_track">Selectați pista audio</string>
     <string name="select_subtitle_track">Selectați subtitrările</string>
     <string name="select_playback_speed">Selectați viteza de redare</string>
-    <string name="select_a_version">Selectați o versiune</string>
     <string name="external">Extern</string>
     <string name="none">Niciunul</string>
-    <string name="player_controls_picture_in_picture">Porniți modul picture-in-picture</string>
     <string name="player_controls_lock">Blocați playerul</string>
     <string name="player_controls_play_pause">Redare pauză</string>
     <string name="player_controls_skip_back">Săriți înapoi</string>

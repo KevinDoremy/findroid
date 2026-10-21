@@ -549,7 +549,7 @@ class PlayerGestureHelper(
         return false
     }
 
-    fun updateTrickplayImage(position: Long) {
+    private fun updateTrickplayImage(position: Long) {
         try {
             val trickplay = currentTrickplay ?: return
             val bitmap = trickplay.images[position.div(trickplay.interval).toInt()]

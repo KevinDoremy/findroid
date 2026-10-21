@@ -2,12 +2,9 @@
 <resources>
     <string name="settings_category_language">Limbă</string>
     <string name="settings_preferred_audio_language">Limbă audio preferată</string>
-    <string name="settings_preferred_subtitle_language">Limbă preferată pentru subtitrări</string>
     <string name="settings_category_servers">Servere</string>
     <string name="settings_category_player">Player</string>
-    <string name="settings_category_download">Descărcări</string>
     <string name="settings_category_appearance">Aspect</string>
-    <string name="settings_category_device">Dispozitiv</string>
     <string name="settings_category_cache">Cache</string>
     <string name="settings_use_cache_title">Păstrare imagini în cache</string>
     <string name="settings_use_cache_summary">Salvează imaginile în cache pentru a reduce timpii de încărcare. Această setare va avea efect după repornirea aplicației.</string>
@@ -23,9 +20,7 @@
     <string name="pref_player_trickplay">Trickplay</string>
     <string name="pref_player_trickplay_summary">Afișează previzualizări în timpul derulării</string>
     <string name="pref_player_chapter_markers">Marcaje pentru capitole</string>
-    <string name="pref_player_chapter_markers_summary">Afișează marcaje pentru capitole pe bara de timp</string>
     <string name="pref_player_gestures_seek_trickplay">Activare Trickplay la gesturi de derulare</string>
-    <string name="pref_player_gestures_seek_trickplay_summary">Afișați previzualizări în timpul gesturii de derulare</string>
     <string name="mpv_player">Player mpv</string>
     <string name="download_mobile_data">Descarcă folosind date mobile</string>
     <string name="download_roaming">Descarcă în timpul roaming-ului</string>
@@ -38,7 +33,6 @@
     <string name="player_gestures_chapter_skip">Gestură pentru schimbarea capitolului</string>
     <string name="player_gestures_vb_summary">Glisați în sus și în jos pe partea dreaptă a ecranului pentru a schimba volumul și pe partea stângă a ecranului pentru a schimba luminozitatea</string>
     <string name="player_gestures_zoom_summary">Ciupiți pentru a vedea videoclipul pe tot ecranul</string>
-    <string name="player_gestures_chapter_skip_summary">Apăsați lung pe partea stângă / dreaptă pentru a sări capitole (suprascrie gestura de viteză 2x)</string>
     <string name="player_gestures_seek_summary">Glisați orizontal pentru a derula înainte sau înapoi</string>
     <string name="player_brightness_remember">Țineți minte luminozitatea</string>
     <string name="player_start_maximized">Pornește maximizat</string>
@@ -66,8 +60,5 @@
     <string name="app_language">Limba aplicației</string>
     <string name="subtitles">Subtitrări</string>
     <string name="subtitles_summary">Personalizează aspectul subtitrărilor</string>
-    <string name="privacy_policy">Politica de confidențialitate</string>
-    <string name="amoled_theme">Tema întunecată AMOLED</string>
-    <string name="amoled_theme_summary">Folsește tema AMOLED cu un fundal negru</string>
     <string name="none">Niciunul</string>
 </resources>

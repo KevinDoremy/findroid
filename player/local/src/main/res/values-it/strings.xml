@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="select_a_version">Seleziona una versione</string>
     <string name="select_audio_track">Traccia audio</string>
     <string name="select_subtitle_track">Traccia dei sottotitoli</string>
     <string name="select_playback_speed">Velocità di riproduzione</string>
@@ -15,7 +14,6 @@
     <string name="player_controls_lock">Blocca il player</string>
     <string name="player_controls_exit">Esci dal player</string>
     <string name="player_controls_skip_intro">Salta intro</string>
-    <string name="player_controls_picture_in_picture">Attiva picture in picture</string>
     <string name="none">Nessuno</string>
     <string name="player_controls_skip_outro">Salta outro</string>
     <string name="player_controls_next_episode">Prossimo episodio</string>

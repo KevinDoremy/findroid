@@ -18,7 +18,6 @@ import org.jellyfin.sdk.model.api.BaseItemDto
 import org.jellyfin.sdk.model.api.BaseItemKind
 import org.jellyfin.sdk.model.api.ItemFields
 import org.jellyfin.sdk.model.api.PublicSystemInfo
-import org.jellyfin.sdk.model.api.UserConfiguration
 
 interface JellyfinRepository {
     suspend fun getPublicSystemInfo(): PublicSystemInfo
@@ -111,10 +110,6 @@ interface JellyfinRepository {
     suspend fun markAsUnplayed(itemId: UUID)
 
     fun getBaseUrl(): String
-
-    suspend fun updateDeviceName(name: String)
-
-    suspend fun getUserConfiguration(): UserConfiguration?
 
     suspend fun getDownloads(): List<FindroidItem>
 

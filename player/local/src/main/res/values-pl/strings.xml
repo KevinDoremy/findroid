@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="select_a_version">Wybierz wersję</string>
     <string name="select_audio_track">Wybierz ścieżkę audio</string>
     <string name="select_subtitle_track">Wybierz ścieżkę napisów</string>
     <string name="select_playback_speed">Wybierz prędkość odtwarzania</string>
@@ -15,7 +14,6 @@
     <string name="player_controls_skip_forward">Skocz do przodu</string>
     <string name="player_controls_progress">Pasek postępu</string>
     <string name="player_controls_play_pause">Odtwórz/wstrzymaj</string>
-    <string name="player_controls_picture_in_picture">Wejdź w tryb obrazu w obrazie</string>
     <string name="none">Żadne</string>
     <string name="player_controls_skip_outro">Pomiń napisy</string>
     <string name="player_controls_next_episode">Następny odcinek</string>

@@ -3,11 +3,8 @@
     <string name="title_download">Sťahovanie</string>
     <string name="settings_category_language">Jazyk</string>
     <string name="settings_preferred_audio_language">Preferovaný jazyk zvuku</string>
-    <string name="settings_preferred_subtitle_language">Preferovaný jazyk titulkov</string>
     <string name="settings_category_servers">Servery</string>
     <string name="settings_category_player">Prehrávač</string>
-    <string name="settings_category_download">Stiahnuté</string>
-    <string name="settings_category_device">Zariadenie</string>
     <string name="settings_category_cache">Vyrovnávacia pamäť</string>
     <string name="settings_use_cache_title">Ukladať obrázky do vyrovnávacej pamäte</string>
     <string name="settings_cache_size">Velkosť vyrovnávacej pamäte</string>
@@ -43,15 +40,12 @@
     <string name="settings_category_appearance">Vzhľad</string>
     <string name="settings_use_cache_summary">Ukladanie obrázkov do vyrovnávacej pamäte urýchľuje načítavanie obsahu. Prejaví sa po reštarte aplikácie.</string>
     <string name="settings_cache_size_message">Aplikácia využije tento priestor v MB na uloženie obrázkov z Jellyfin serveru. Väčšia hodnota môže byť užitočná na pomalších sieťach.</string>
-    <string name="privacy_policy">Zásady ochrany súkromia</string>
     <string name="download_mobile_data">Sťahovať pomocou mobilných dát</string>
     <string name="mpv_player_summary">Použiť experimentálny prehrávač mpv na prehrávanie videí. Mpv má širšiu podporu audio/video kodekov a formátov titulkov.</string>
     <string name="player_gestures_vb_summary">Potiahnite prstom hore a dole na pravej strane obrazovky na nastavenie hlasitosti a na ľavej na zmenu jasu</string>
     <string name="dynamic_colors_summary">Použiť dynamické farby Dynamic You (iba pre Android 12+)</string>
     <string name="extra_info">Zobraziť doplnkové informácie</string>
     <string name="extra_info_summary">Zobraziť detailné informácie o zvuku, videu a titulkoch</string>
-    <string name="amoled_theme">AMOLED temný motív</string>
-    <string name="amoled_theme_summary">Použiť AMOLED motív s úplne čiernym pozadím</string>
     <string name="offline_mode">Offline Režim</string>
     <string name="app_language">Jazyk aplikácie</string>
     <string name="picture_in_picture">Obraz v obraze</string>
@@ -60,12 +54,9 @@
     <string name="player_start_maximized">Začni maximalizovaný</string>
     <string name="player_start_maximized_summary">Štandardne otvor video v maximalizovanom režime</string>
     <string name="player_gestures_chapter_skip">Gesto na kapitoly</string>
-    <string name="player_gestures_chapter_skip_summary">Dlhé stlačenie na ľavej / pravej strane pre preskočenie kapitoly (prepíše gesto na 2x rýchlosť)</string>
     <string name="pref_player_chapter_markers">Značky kapitol</string>
-    <string name="pref_player_chapter_markers_summary">Zobraz značky kapitol na časovej osi</string>
     <string name="pref_player_trickplay">Trickplay</string>
     <string name="pref_player_trickplay_summary">Zobrazenie náhľadu počas prechádzania časovej osi</string>
     <string name="pref_player_gestures_seek_trickplay">Trickplay pri navigačnom geste</string>
     <string name="trickplay">Trickplay</string>
-    <string name="pref_player_gestures_seek_trickplay_summary">Zobraz náhľadových obrázkov pri navigačnom geste</string>
 </resources>

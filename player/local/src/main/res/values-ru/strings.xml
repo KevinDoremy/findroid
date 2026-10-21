@@ -2,7 +2,6 @@
 <resources>
     <string name="select_subtitle_track">Выбрать субтитры</string>
     <string name="select_playback_speed">Выбрать скорость воспроизведения</string>
-    <string name="select_a_version">Выбрать версию</string>
     <string name="select_audio_track">Выбрать аудиодорожку</string>
     <string name="external">Внешнее</string>
     <string name="player_controls_exit">Выйти из проигрывателя</string>
@@ -16,7 +15,6 @@
     <string name="player_controls_skip_forward">Перейти вперёд</string>
     <string name="player_controls_progress">Прогресс-бар</string>
     <string name="none">Отключить</string>
-    <string name="player_controls_picture_in_picture">Картинка в картинке</string>
     <string name="player_controls_skip_outro">Пропустить концовку</string>
     <string name="player_controls_next_episode">Следующая серия</string>
     <string name="player_controls_skip_recap">Пропустить пересказ</string>

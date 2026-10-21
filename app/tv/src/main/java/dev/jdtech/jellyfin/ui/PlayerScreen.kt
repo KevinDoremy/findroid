@@ -44,7 +44,6 @@ import androidx.tv.material3.Glow
 import androidx.tv.material3.Icon
 import androidx.tv.material3.MaterialTheme
 import dev.jdtech.jellyfin.core.R
-import dev.jdtech.jellyfin.player.core.domain.models.Track
 import dev.jdtech.jellyfin.player.local.presentation.PlayerViewModel
 import dev.jdtech.jellyfin.presentation.theme.spacings
 import dev.jdtech.jellyfin.ui.components.player.VideoPlayerControlsLayout
@@ -55,7 +54,6 @@ import dev.jdtech.jellyfin.ui.components.player.VideoPlayerSeeker
 import dev.jdtech.jellyfin.ui.components.player.VideoPlayerState
 import dev.jdtech.jellyfin.ui.components.player.rememberVideoPlayerState
 import dev.jdtech.jellyfin.utils.handleDPadKeyEvents
-import java.util.Locale
 import java.util.UUID
 import kotlin.time.Duration.Companion.milliseconds
 import kotlinx.coroutines.delay
@@ -323,36 +321,3 @@ private fun Modifier.dPadEvents(exoPlayer: Player, videoPlayerState: VideoPlayer
         },
     )
 
-@androidx.annotation.OptIn(UnstableApi::class)
-private fun getTracks(player: Player, type: Int): Array<Track> {
-    val tracks = arrayListOf<Track>()
-    for (groupIndex in 0 until player.currentTracks.groups.count()) {
-        val group = player.currentTracks.groups[groupIndex]
-        if (group.type == type) {
-            val format = group.mediaTrackGroup.getFormat(0)
-
-            val track =
-                Track(
-                    id = groupIndex,
-                    label = format.label,
-                    language = Locale(format.language.toString()).displayLanguage,
-                    codec = format.codecs,
-                    selected = group.isSelected,
-                    supported = group.isSupported,
-                )
-
-            tracks.add(track)
-        }
-    }
-
-    val noneTrack =
-        Track(
-            id = -1,
-            label = null,
-            language = null,
-            codec = null,
-            selected = !tracks.any { it.selected },
-            supported = true,
-        )
-    return arrayOf(noneTrack) + tracks
-}

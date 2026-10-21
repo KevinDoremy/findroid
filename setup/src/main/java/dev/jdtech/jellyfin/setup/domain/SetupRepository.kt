@@ -37,8 +37,6 @@ interface SetupRepository {
 
     suspend fun getPublicUsers(serverId: String): List<User>
 
-    suspend fun getCurrentUser(): User?
-
     suspend fun deleteUser(userId: UUID)
 
     suspend fun setCurrentUser(userId: UUID)
